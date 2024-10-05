@@ -1,0 +1,147 @@
+@import "./variables.scss";
+.HeaderContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+border-bottom: 3px solid #FFFFFF;
+margin: 0 20px;
+
+
+
+    .headerLogo{
+        width: 70%;
+        padding: 20px 0;
+        h1{
+font-family: 'BN Nokyo';
+font-style: normal;
+font-weight: 400;
+font-size: 78px;
+white-space: no-wrap;
+line-height: 19px;
+leading-trim: both;
+text-edge: cap;
+letter-spacing: -0.66105px;
+color: #F3CC42;
+
+@include breakpoint(gsm, max) {
+    font-size: 50px;
+}
+@include breakpoint(xsm, max) {
+    font-size: 40px;
+}
+        }
+    }
+
+    .header_links{
+        width: 40%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex; 
+        @include breakpoint(md, max){
+            display: none;
+        }
+
+        li{
+            font-family: 'Genos';
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: -0.457589px;
+
+            a{
+                text-decoration: none;
+                color: #E4ECFE;
+            }
+        }
+    }
+
+    .headerIcon{
+        display: block;
+        margin: 0 10px;
+
+        @include breakpoint(gsm, max) {
+            margin: 0;
+        }
+    }
+
+    .mobile_menu_content{
+.mobile_header_links{
+    display: none;
+    @include breakpoint(md, max){
+        position: fixed;
+        display: flex;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #060C22;
+        margin-right: 20px;
+        z-index: 100;
+        width: 300px;
+        right: -100%;
+        border-radius: 10px;
+        padding: 20px;
+        transition: 0.3s;
+
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    p{
+        font-family: 'Genos';
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: -0.457589px;
+        padding: 20px 0;
+    }
+    li{
+        font-family: 'Genos';
+        font-weight: bold;
+        font-size: 28px;
+        letter-spacing: -0.457589px;
+        padding: 10px 0;
+        border-bottom: 1px solid #E4ECFE;
+
+        &:last-of-type{
+            border: none;
+        }
+
+        a{
+            text-decoration: none;
+            color: #E4ECFE;
+        }
+    }
+}
+    }
+.active{
+    .mobile_header_links{
+        right: 0;
+    }
+}
+    .hamburger {
+        display: none;
+
+        @include breakpoint(md, max){
+            display: block;
+        }
+    }
+    
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #F3CC42;
+    }
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}

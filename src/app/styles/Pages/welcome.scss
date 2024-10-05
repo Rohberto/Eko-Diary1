@@ -1,0 +1,55 @@
+@import "../variables.scss";
+.WelcomeContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 40px 20px;
+
+.welcomeImg{
+    width: 200px;
+    height: 220px;
+    margin-bottom: 70px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+p{
+    margin-top: 30px;
+    font-family: 'Genos';
+text-align: center;
+font-family: 'Genos';
+font-style: normal;
+font-weight: 500;
+font-size: 33.1px;
+line-height: 25px;
+leading-trim: both;
+text-edge: cap;
+color: #E4ECFE;
+}
+
+.welcomeBtnCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .welcomeBtn{
+        background-color: transparent;
+        width: 294px;
+        height: 73px;
+        margin-top: 60px;
+        border: 1px solid #535766;
+        border-radius: 47px;
+        font-family: 'Genos';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 33.31px;
+        line-height: 10px;
+        letter-spacing: -0.374138px;
+        color: #E4ECFE;
+    }
+}
+}

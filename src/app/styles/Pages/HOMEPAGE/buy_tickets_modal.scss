@@ -1,0 +1,90 @@
+@import "../../variables.scss";
+ .modal-dialog{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+ }
+ .modal-content{
+  position: relative;
+  padding: 40px 10px;
+  max-width:300px;
+  background-color:#FFFFFF;
+  border-radius: 25px;
+
+  h3{
+    font-family: 'Genos';
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.457589px;
+    color: #060C22;
+    margin-top: 10px;
+  }
+  h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #535766;
+    font-family: 'Genos';
+    padding: 15px 0;
+    text-align: center;
+  }
+ }
+
+ 
+ .modal_close{
+        opacity: 1;
+      position: absolute;
+      top: 15px;
+      right: 5px;
+      font-size: 30px;
+      padding: 3px 15px;
+      background: none;
+      outline: none;
+      border: none;
+  }
+  .modal_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    button{
+    background-color: transparent;
+width: 200px;
+height: 73px;
+border: 1px solid #535766;
+border-radius: 47px;
+font-family: 'Genos';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+color: #060C22;
+margin: 0 auto;}
+  }
+
+  .modal_buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    button{
+      background-color: transparent;
+      width: 100px;
+      height: 50px;
+      border: 1px solid #535766;
+      border-radius: 47px;
+      font-family: 'Genos';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      color: #060C22;
+      margin: 0 auto;
+    }
+  }
+  

@@ -1,0 +1,113 @@
+@import "../variables.scss";
+.onboardingContainer{
+    width: 100%;
+    min-height: 70vh;
+    padding: 40px 0;
+    overflow-x: hidden;
+    position: relative;
+
+    .intro-text{
+
+font-family: 'Genos';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 10px;
+text-align: center;
+letter-spacing: -0.374138px;
+color: #E4ECFE;
+
+
+    }
+    .onboardingImages{
+        position: relative;
+        display: flex;
+min-height: 60vh;
+       .onboardImg{
+width: 300px;
+height: 400px;
+
+img{
+    /* Frame 52 */
+
+width: 239px;
+height: 312px;
+
+    border-radius: 10%;
+    object-fit: cover;
+}
+}
+.onboardImg2{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    transform: translate(-30%, -10%);
+    transform: rotate(-4.62deg);
+    z-index: 10;
+}
+.onboardImg3{
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    transform: translate(-90%, -20%);
+    transform: rotate(4.62deg);
+opacity: 0.4;
+
+}
+    
+.onboardImg1{
+    position: absolute;
+    left: -35%;
+    top: 20%;
+    transform: translate(35%, -20%);
+opacity: 0.4;
+
+transform: rotate(8.25deg);
+
+
+}
+    
+    }
+    .registerP{
+        text-align: center;
+    }
+    .registerText{
+  text-decoration: none;
+font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 13px;
+text-align: center;
+letter-spacing: -0.374138px;
+color: #E4ECFE;
+
+
+    }
+    .svg{
+       
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 58px;
+
+    }
+ .onboardingLogin{
+    text-align: center;
+    position: fixed;
+bottom: 10px;
+width: 100%;
+
+
+font-family: 'Genos';
+font-style: normal;
+font-weight: 300;
+font-size: 33.31px;
+letter-spacing: -0.374138px;
+text-decoration: none;
+color: #E4ECFE;
+
+
+ }
+}

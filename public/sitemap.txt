@@ -1,0 +1,7 @@
+https://www.ekodiary.com
+https://www.ekodiary.com/onboarding
+https://www.ekodiary.com/login
+https://www.ekodiary.com/signup
+https://www.ekodiary.com/event/:id
+https://www.ekodiary.com/create-event
+https://www.ekodiary.com/checkout/:id

@@ -1,0 +1,133 @@
+@import "../../variables.scss";
+.event_detail_container{
+    padding: 20px 20px 100px;
+    .detail-cont{
+        display: flex;
+        @include breakpoint(md, max) {
+            display: block;
+        }
+    }
+    .detail-content{
+        width: 50%;
+          @include breakpoint(md, max) {
+           width: 100%;
+        }
+    }
+    .event_img_container{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 20px;
+        @include breakpoint(md, max) {
+          width: 100%;
+          align-items: center;
+        }
+        img{
+            max-width: 600px;
+            max-height: 400px;
+            object-fit: cover;
+        }
+    }
+    .event_name{
+        font-family: 'Genos';
+font-weight: bold;
+font-size: 40px;
+line-height: 25px;
+text-align: center;
+letter-spacing: -0.457589px;
+color: #E4ECFE;
+margin-top: 50px;
+    }
+
+    .event_date, .event_time, .event_location{
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+
+        .date_icon, .time_icon, .location_icon{
+           color: #E4ECFE;
+            width: 25px;
+            height: 25px;
+            margin-right: 20px;
+        }
+        p{
+            font-family: 'Genos';
+font-weight: 600;
+font-size: 18px;
+line-height: 13px;
+text-align: center;
+letter-spacing: -0.457589px;
+color: #E4ECFE;
+        }
+    }
+  hr{
+    border: 1px solid #747577;
+  }
+    .event_about{
+        h4{
+            font-family: 'Genos';
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 20px;
+            letter-spacing: -0.457589px;
+            color: #747577;
+            margin: 30px 0;
+        }
+
+        p{
+            font-family: 'Genos';
+            font-weight: 600;
+            font-size: 24px;
+            letter-spacing: -0.457589px;
+            color: #E4ECFE;
+        }
+        margin-bottom: 20px;
+    }
+    .event_contact{
+        h4{
+            font-family: 'Genos';
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 20px;
+            letter-spacing: -0.457589px;
+            color: #747577;
+            margin: 30px 0;
+        }
+
+        a{
+            font-size: 24px;
+            color: #E4ECFE;
+            margin-right: 20px;
+        }
+    }
+    .event_buy{
+        background-color: #060C22;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        left: 0;
+        .svg{
+            width: 100%;
+            height: 58px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+    }
+    p{
+        width: 100%;
+        position: fixed;
+        bottom: 10px;
+        a{
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        font-family: 'Genos';
+        font-weight: bold;
+        font-size: 30px;
+        color: #747577;
+        text-decoration: none;
+        }
+    }
+    }
+}

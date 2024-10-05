@@ -1,0 +1,120 @@
+@import "../variables.scss";
+.signupContainer{
+    height: 100%;
+    padding: 40px 20px;
+
+    .login-error{
+        color: rgb(136, 23, 23);
+        font-size: 28px;
+        font-family: 'Genos';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: -0.374138px;
+    margin-top: 40px;
+    }
+    
+    .socialLogin{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .socialButtons{
+            display: block;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            background-color: transparent;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 10px;
+letter-spacing: -0.374138px;
+color: #E4ECFE;
+margin-bottom: 10px;
+
+img{
+    margin-right: 20px;
+}
+}
+    }
+
+    .loginFormContainer{
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .inputContainer{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding: 5px 0;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.31);
+        label{
+            text-transform: uppercase;
+            margin-right: 20px;
+font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 14px;
+
+leading-trim: both;
+text-edge: cap;
+letter-spacing: -0.5px;
+color: #E4ECFE;
+ }
+ input{
+    background-color: transparent;
+    outline: 0;
+   border: none;
+    width: 70%;
+font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 33.1px;
+line-height: 14px;
+leading-trim: both;
+text-edge: cap;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+color: #E4ECFE;
+ }
+}
+
+.loginBtn{
+background-color: transparent;
+width: 294px;
+height: 73px;
+margin-top: 120px;
+border: 1px solid #535766;
+border-radius: 47px;
+font-family: 'Genos';
+font-style: normal;
+font-weight: 300;
+font-size: 33.31px;
+line-height: 10px;
+letter-spacing: -0.374138px;
+color: #E4ECFE;
+}
+    }
+
+    .loginBackBtn{
+        display: inline-block;
+        font-family: 'Genos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16.655px;
+        line-height: 13px;
+        text-decoration: none;
+        text-align: center;
+        letter-spacing: -0.457589px;
+        color: #E4ECFE;
+        width: 100%;
+        }
+}

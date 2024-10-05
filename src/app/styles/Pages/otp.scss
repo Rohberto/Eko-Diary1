@@ -1,0 +1,112 @@
+@import "../variables.scss";
+.otpContainer{
+    height: 100%;
+    padding: 40px 20px;
+    .otpResendButton{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        button{
+            background-color: transparent;
+            outline: none;
+            border: none;
+            font-family: 'Genos';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 13px;
+            color: #E4ECFE;
+            letter-spacing: -0.457589px;
+
+        }
+    }
+    .login-error{
+        color: rgb(136, 23, 23);
+        font-size: 28px;
+        font-family: 'Genos';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: -0.374138px;
+    margin-top: 40px;
+    text-align: center;
+    }
+    .otpInputFields{
+        width: 100%;
+        display: flex;
+        margin-top: 120px;
+        padding: 40px 0;
+        justify-content: space-evenly;
+
+        .otpInputField{
+         width: 15%;
+         padding: 0 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+ height: 100px;
+            outline: 0;
+border: 1px solid #52555B;
+border-radius: 47px;
+background-color: transparent;
+color: #E4ECFE;
+font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 33.1px;
+line-height: 14px;
+        }
+    }
+
+    .otpText{
+font-family: 'Genos';
+text-align: center;
+text-transform: capitalize;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 14px;
+leading-trim: both;
+text-edge: cap;
+letter-spacing: -0.5px;
+color: #E4ECFE;
+    }
+    .verifyBtnCont{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    .verifyBtn{
+        background-color: transparent;
+width: 294px;
+height: 73px;
+margin-top: 120px;
+border: 1px solid #535766;
+border-radius: 47px;
+font-family: 'Genos';
+font-style: normal;
+font-weight: 300;
+font-size: 33.31px;
+line-height: 10px;
+letter-spacing: -0.374138px;
+color: #E4ECFE;
+    }
+}
+    .verifyBackBtn{
+        font-family: 'Genos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16.655px;
+        line-height: 13px;
+        margin-top: 10px;
+        text-align: center;
+        letter-spacing: -0.457589px;
+        width: 100%;
+
+        a{
+            text-decoration: none;
+            color: #E4ECFE;
+        }
+    }
+}
