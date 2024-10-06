@@ -5,7 +5,6 @@ import { useRouter} from 'next/navigation';
 import {useParams} from 'next/navigation';
 import { resetUser } from '../../../Store/UserSlice';
 
-
 const ResetPass = () => {
     const {error, loading} = useSelector((state) => state.user);
     const [password, setPassword] = useState("");
