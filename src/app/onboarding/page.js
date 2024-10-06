@@ -8,6 +8,7 @@ import Element from "../Images/element.png";
 import SVG from "../Images/svg.svg";
 import  Link  from 'next/link';
 
+export const runtime = "edge";
 const Home = () => {
   useEffect(() => {
     if(user !== null || undefined){

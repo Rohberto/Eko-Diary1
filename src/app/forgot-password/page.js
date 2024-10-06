@@ -4,6 +4,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { forgotUser } from '../Store/UserSlice';
 import { useRouter } from 'next/navigation';
 
+export const runtime = "edge";
+
 const ForgotPass = () => {
     const [email, setEmail] = useState("");
     const {error, loading} = useSelector((state) => state.user);

@@ -7,7 +7,9 @@ import { useRouter } from 'next/navigation';
 import axios from "axios";
 import DataContext from '../Context/datacontext';
 
-const Otp = () => {
+export const runtime = "edge";
+
+const Otp = () => { 
 const length = 4;
 const {handleChangeOtp} = useContext(DataContext);
 const [otp, setOtp] = useState(new Array(length).fill(""));

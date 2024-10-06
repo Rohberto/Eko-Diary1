@@ -7,6 +7,8 @@ import { useSelector } from 'react-redux';
 import { useRouter, redirect } from 'next/navigation';
 import {GoogleLogin} from "@react-oauth/google";
 
+export const runtime = "edge";
+
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');

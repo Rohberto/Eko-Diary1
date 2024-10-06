@@ -27,7 +27,8 @@
   "scripts": {
     "start": "next start",
     "build": "next build",
-    "dev": "next dev"
+    "dev": "next dev",
+    "pages:build": "npx @cloudflare/next-on-pages"
   },
   "eslintConfig": {
     "extends": [

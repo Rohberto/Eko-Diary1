@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { createEvent } from '../Store/EventSlice';
 import  Link  from 'next/link';
 
+export const runtime = "edge";
 const CreateEvent = ({socket}) => {
     const dispatch = useDispatch();
     const {user} = useSelector((state) => state.user);

@@ -14,6 +14,8 @@ import { addEvent, updateDeletedEvent } from './Store/EventsSlice';
 import axios from 'axios';
 import DataContext from './Context/datacontext';
 import Image from 'next/image';
+
+export const runtime = "edge";
 const Home = () => { 
   const navigate = useRouter();
   const {socket} = useContext(DataContext);
