@@ -8,7 +8,7 @@ import axios from 'axios';
 import  Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
-export const runtime = "edge";
+
 const BuyTickets = () => {
     const {id} = useParams();
     const navigate = useRouter();
