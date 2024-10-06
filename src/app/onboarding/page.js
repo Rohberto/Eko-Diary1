@@ -1,6 +1,7 @@
 "use client"
 import { useEffect } from 'react';
 import { redirect } from 'next/navigation';
+import { useSelector } from 'react-redux';
 import Image from 'next/image';
 import Cavemen from "../Images/cavemen.png";
 import Saro from "../Images/saro.png";
@@ -10,6 +11,7 @@ import  Link  from 'next/link';
 
 export const runtime = "edge";
 const Home = () => {
+  const {user} = useSelector((state) => state.user);
   useEffect(() => {
     if(user !== null || undefined){
      redirect("/")
