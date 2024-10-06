@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation';
 import axios from "axios";
 import DataContext from '../Context/datacontext';
 
-export const runtime = "edge";
+
 
 const Otp = () => { 
 const length = 4;

@@ -1,11 +1,11 @@
-"Use Client"
+"use client"
 import React, {useState} from 'react';
 import Calendar from "react-calendar";
 import Menu from "../Images/menu.svg";
 import {  useSelector } from 'react-redux';
 import Calendar1 from "../Images/calendar.svg";
 import { MdOutlineDeleteOutline } from "react-icons/md";
-import { Link } from 'next/link';
+import  Link  from 'next/link';
 import Image from 'next/image';
 
 const Slider = ({slide, setModal, setCurrent}) => {

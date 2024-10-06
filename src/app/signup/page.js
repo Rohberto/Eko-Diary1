@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux';
 import { useRouter, redirect } from 'next/navigation';
 import {GoogleLogin} from "@react-oauth/google";
 
-export const runtime = "edge";
+
 const SignUp = () => {
   const navigate = useRouter();
   const dispatch = useDispatch();

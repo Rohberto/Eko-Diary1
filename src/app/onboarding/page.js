@@ -9,7 +9,7 @@ import Element from "../Images/element.png";
 import SVG from "../Images/svg.svg";
 import  Link  from 'next/link';
 
-export const runtime = "edge";
+
 const Home = () => {
   const {user} = useSelector((state) => state.user);
   useEffect(() => {

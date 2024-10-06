@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useSelector } from 'react-redux';
 import Image from 'next/image';
 
-export const runtime = "edge";
+
 const Welcome = () => {
   const navigate = useRouter()
   const {user} = useSelector((state) => state.user);
