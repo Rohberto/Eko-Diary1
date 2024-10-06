@@ -4,7 +4,7 @@ import Header from "./Components/Header";
 import "./polyfill";
 import {GoogleOAuthProvider} from "@react-oauth/google";
 import { DataProvider } from "./Context/datacontext";
-
+export const runtime = 'edge';
 export const metadata = {
 metadataBase: new URL("https://www.ekodiary.com"),
 keywords: ["ekodiary", "eko diary", "events", "ticketing", "event ticketing", "event ticketing in lagos"],
