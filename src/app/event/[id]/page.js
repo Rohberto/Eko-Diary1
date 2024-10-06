@@ -12,6 +12,7 @@ import SVG from "../../Images/svg.svg";
 import  Link from 'next/link';
 import Image from 'next/image';
 
+export const runtime = "edge";
 const EventDetail = () => {
     const {id} = useParams();
     const {events, loading} = useSelector((state) => state.events);
